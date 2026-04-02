@@ -1,0 +1,156 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(45deg, #6a6b83, #ff8552);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
+
+
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.hero-logo {
+  width: min(58vw, 520px);
+  height: auto;
+  display: block;
+}
+
+.hero-copy {
+  color: #231F20;
+}
+
+.hero-title,
+.hero-subtitle {
+  margin: 0;
+}
+
+.hero-subtitle {
+  margin-top: 0.5rem;
+  font-weight: 500;
+  font-size: clamp(1rem, 1.8vw, 1.25rem);
+}
+
+.content-card {
+  width: 70%;
+  margin: 0 auto;
+  background: rgba(35, 31, 32, 0.3);
+  border-radius: 14px;
+  padding: 1.2rem 1.4rem 1.4rem;
+  box-sizing: border-box;
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.2);
+}
+
+.about,
+.services,
+.contact {
+  margin-top: 0;
+}
+
+.services,
+.contact {
+  margin-top: 1.1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(35, 31, 32, 0.2);
+}
+
+.about-title {
+  margin: 0 0 1rem;
+  color: #231F20;
+}
+
+.about-text {
+  margin: 0;
+  color: #231F20;
+  line-height: 1.45;
+  font-size: clamp(0.95rem, 1.35vw, 1.05rem);
+}
+
+.services-title {
+  margin: 0 0 0.75rem;
+  color: #231F20;
+}
+
+.services-grid {
+  display: flex;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  flex: 1 1 220px;
+  background: rgba(32, 28, 29, 0.1);
+  border-radius: 14px;
+  padding: 1rem 1.1rem;
+  box-sizing: border-box;
+}
+
+.service-title {
+  margin: 0 0 0.5rem;
+  color: #231F20;
+}
+
+.service-text {
+  margin: 0;
+  color: #231F20;
+  line-height: 1.45;
+  font-size: clamp(0.92rem, 1.15vw, 1rem);
+}
+
+.contact {
+  margin-bottom: 0;
+}
+
+.contact-title {
+  margin: 0 0 0.5rem;
+  color: #231F20;
+}
+
+.contact-text {
+  margin: 0;
+  color: #231F20;
+  line-height: 1.45;
+  font-size: clamp(0.95rem, 1.35vw, 1.05rem);
+}
+
+.contact-link {
+  color: #231F20;
+  font-weight: 600;
+}
+
+.footer {
+  width: 100%;
+  background: rgba(35, 31, 32, 0.2);
+  padding: 1.2rem;
+  box-sizing: border-box;
+  margin-top: auto;
+}
+
+.footer-text {
+  margin: 0;
+  color: #231F20;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/png" href="resources/lettermark-favicon.png">
+        <link rel="stylesheet" href="main.css">
+        <title>RidgePoint Solutions</title>
+    </head>
+    <body>
+        <main>
+            <section class="hero">
+                <img class="hero-logo" src="resources/logo16.png" alt="Ridgepoint lettermark">
+                <div class="hero-copy">
+                    <h2 class="hero-title">Technology tailored for your organization</h2>
+                    <h3 class="hero-subtitle">Proven expertise in healthcare and EMS</h3>
+                </div>
+            </section>
+
+            <div class="content-card">
+                <section class="about" aria-labelledby="about-title">
+                    <h2 id="about-title" class="about-title">About Us</h2>
+                    <p class="about-text">RidgePoint Solutions delivers customized IT and software solutions, 
+                        including network design, server configuration, and application development and hosting, 
+                        backed by friendly, reliable support. Founded and operated by first responders, 
+                        we build systems that fit seamlessly into daily operations so your team stays focused on the mission, 
+                        not the infrastructure. Whether you're modernizing, upgrading, or building from scratch, 
+                        we help you move forward with confidence.</p>
+                </section>
+
+                <section class="services" aria-labelledby="services-title">
+                    <h2 id="services-title" class="services-title">What We Do</h2>
+                    <div class="services-grid">
+                        <article class="service-card">
+                            <h3 class="service-title">Custom Software & eLearning</h3>
+                            <p class="service-text">We build applications and training tools designed around your workflows, 
+                                making your team more efficient and your technology easier to use. Every solution is built with 
+                                the end user in mind.</p>
+                        </article>
+                        <article class="service-card">
+                            <h3 class="service-title">Network & Infrastructure</h3>
+                            <p class="service-text">We design, install, and manage secure networks, servers, 
+                                and systems that keep your team connected and your operations running smoothly. 
+                                From initial setup to ongoing maintenance, your infrastructure is in good hands.</p>
+                        </article>
+                        <article class="service-card">
+                            <h3 class="service-title">Device Management & Support</h3>
+                            <p class="service-text">We keep every device in your organization secure, current, 
+                                and performing through proactive monitoring and responsive support. 
+                                When something goes wrong, we're on it so you don't have to be..</p>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="contact" aria-labelledby="contact-title">
+                    <h2 id="contact-title" class="contact-title">Get in Touch</h2>
+                    <p class="contact-text">Drop us a line at <a class="contact-link" href="mailto:hello@ridgepointsolutions.com">hello@ridgepointsolutions.com</a>.</p>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <p class="footer-text">&copy; 2025-<span id="year"></span> RidgePoint Solutions. All rights reserved.</p>
+        </footer>
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </body>
+</html>
